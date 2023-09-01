@@ -1,0 +1,250 @@
+body #background{
+    
+    padding-left: 50px;
+    margin-bottom:50px;    
+    background-image: url(images/pencilBg.avif) ;
+    background-size: cover;
+    height: 50vh;
+    margin-left:-250px ;
+    transition:0.2s;
+    background-repeat: no-repeat;
+
+}
+body{
+    background-color:lavenderblush;
+}
+
+#welcome{
+    color: rgb(202, 124, 6);
+    text-align: center;
+    font-size: 900%;
+}
+#intro{
+    color:rgb(255, 174, 53);
+    text-align: center;
+    padding: 50px;
+}
+
+.Hdr{
+    align-items: center;
+    background-color: rgb(0, 19, 101);
+    background-image: url(images/background.avif);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.Hdr #read{
+    padding: 20px;
+    width: 15%;
+    border: none;
+    background-color:rgb(0, 19, 101);
+    background-color:unset;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: -5px;
+    transition-duration: 0.2s;
+
+}
+.Hdr #gallery{
+     padding: 20px 0;
+    width: 15%;
+    border: none;
+    background-color:rgb(0, 19, 101);
+    background-color:unset;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: -5px;
+    transition-duration: 0.2s;
+
+}
+.Hdr #shop{
+     padding: 20px 0;
+    width: 15%;
+    border: none;
+    background-color:rgb(0, 19, 101);
+    background-color:unset;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: -5px;
+    transition-duration: 0.2s;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.Links #explore{
+    margin: 10px;
+}
+.Links #explore{
+    padding: 20px 0;
+    width: 15%;
+    border: none;
+    background-color:rgb(238, 107, 25);
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: -5px;
+    transition-duration: 0.2s;
+    align-items: baseline;
+    
+}
+.Links #lrn{
+    margin: 10px;
+}
+.Links #lrn{
+    padding: 20px 0;
+    width: 15%;
+    border: none;
+    background-color:rgb(238, 107, 25);
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: -5px;
+    transition-duration: 0.2s;
+    align-items: baseline;
+    padding-left: 0ch;
+}
+.Links #intouch{
+    margin: 10px;
+}
+.Links #intouch{
+    padding: 20px 0;
+    width: 15%;
+    border: none;
+    background-color:rgb(238, 107, 25);
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: -5px;
+    transition-duration: 0.2s;
+    align-items: baseline;
+    padding-left: 0ch;
+    text-decoration: none;
+}
+
+.Links #ourwork{
+    margin: 10px;
+}
+.Links #ourwork{
+    text-decoration: none;
+    padding: 20px 0;
+    width: 15%;
+    border: none;
+    background-color: rgb(238, 107, 25);
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: -5px;
+    transition-duration: 0.2s;
+    align-items: baseline;
+    padding-left: 0ch;
+}
+
+
+.Links #about{
+    margin: 10px;
+}
+.Links #about{
+    padding: 20px 0;
+    width: 15%;
+    border: none;
+    background-color: rgb(238, 107, 25);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: -5px;
+    transition-duration: 0.2s;
+    align-items: baseline;
+    padding-left: 0ch;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.formControl{
+    margin: 50px auto;
+    background-color: rgb(241, 201, 83);
+    background-image: url(images/background.avif);
+    border-radius: 10px;
+    width: 30%;
+    height: auto;
+    padding: 40px;
+}
+
+.formControl input{
+    padding: 10px;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 55px;
+    background-color: rgb(255, 236, 181);
+}
+
+.formControl button{
+    padding: 20px 0;
+    width: 100%;
+    border: none;
+    background-color: rgb(255, 173, 30);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: -5px;
+    transition-duration: 0.2s;
+}
+.formControl button:hover{
+    background-color: rgb(87, 87, 87);
+
+}
+.formControl  h3{
+    color: white;
+}
+
+#letUs{
+    color: rgb(255, 255, 255);
+}
+
+footer li{
+    flex: 1;
+    text-align: left;
+    padding-bottom: 100px;
+
+}
+
+footer li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px;
+
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+}
+
+footer ul li a ::after{
+    content: "";
+    width: 100%;
+    height: 10px;
+    background: #1e0069;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -55px;}
